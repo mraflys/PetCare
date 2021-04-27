@@ -36,18 +36,18 @@ nav ul{
     display: flex;
     list-style: none;
 }
+
 nav ul li a{
     text-decoration:none;
     color: #fff;
     padding: 10px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     position: relative;
     overflow: hidden;
-    font-family: 'gothampro';
 }
 
 nav ul li a:before {
@@ -89,14 +89,16 @@ nav ul li a:before {
     font-size: 2.5rem;
     line-height: 42px;
 }
+
 .desc p{
     color: white;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.5em;
-    line-height: 21px;
+    font-size: 1.2em;
+    line-height: 25px;
 }
+
 .desc p br::after{
     color: #DADADA;
 }
