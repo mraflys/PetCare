@@ -48,6 +48,7 @@ nav ul li a{
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     position: relative;
     overflow: hidden;
+    font-family: Gotham;
 }
 
 nav ul li a:before {
